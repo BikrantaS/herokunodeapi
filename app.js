@@ -40,7 +40,7 @@ app.use([logger, authorize]);
 
 app.use(
     cors({
-        origin: "http://localhost:3001",
+        origin: "https://react-feature-testing.web.app",
     })
 )
 
