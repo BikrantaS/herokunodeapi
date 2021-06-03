@@ -1,3 +1,3 @@
-# zeetnodeapi
+# herokunodeapi
 
-api link"https://bikrantasarkar-zeetnodeapi.zeet.app/
+api link:https://sarkarapi.herokuapp.com/
