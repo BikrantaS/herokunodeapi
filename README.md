@@ -1,3 +1,3 @@
 # zeetnodeapi
 
-api link"https://bikrantasarkar-zeetnodeapi.zeet.app/
+api link:https://dashboard.heroku.com/apps/sarkarapi
