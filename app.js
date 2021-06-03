@@ -24,7 +24,7 @@
 // })
 
 const hostname = '0.0.0.0';
-const port =process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 
 
@@ -32,10 +32,17 @@ const express = require('express');
 const logger = require('./logger');//importing defined middleware
 const authorize = require('./authorize');
 const data = require('./data');
+const cors = require("cors")
 
 const app = express();
 app.use([logger, authorize]);
 // app.use(express.static('./YOUR STATIC DIRECTORY'));  //to access staticfiles
+
+app.use(
+    cors({
+        origin: "http://localhost:3001",
+    })
+)
 
 app.get('/', logger, (req, res) => {
     res.send("WELCOME TO ROOT");
