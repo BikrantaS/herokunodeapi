@@ -42,7 +42,7 @@ app.get('/', logger, (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.send("API");
+    res.send("API--2");
 })
 
 app.get('/api/v1/:info', (req, res) => {
